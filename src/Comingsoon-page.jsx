@@ -6,75 +6,33 @@ import nextbutton from "./asset/images/icon-arrow.svg"
 const Comingsoon
   = () => {
     return (
-      <div className="bg-[color:hsl(0,100%,98%)] h-screen">
-        <div className='flex h-full w-full'>
-          <div className='flex-1 border'>
-            <div className='px-52 py-20'>
-              <div>
-                <img src={logo} alt="" />
-              </div>
-              <div className='mt-28 flex flex-col items-start justify-start w-2/3'>
-                <span className='tracking-[.25em] text-[50px] font-[10] text-[color:hsl(0,36%,70%)]'>
-                  WE'RE
-                </span>
-                <span className='tracking-[.35em] text-[50px] font-[500]'>
-                  <p>COMING</p>
-                  <p>SOON</p>
-                </span>
-                <span className='font-[400] text-[color:hsl(0,36%,70%)]'>
-                  Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
-                </span>
+      <div>
 
-                <form className='w-full mt-10 focus:border-[hsl(0,36%,70%)] focus:outline'>
-                <div className='relative w-full focus:border-[hsl(0,36%,70%)] focus:outline'>
-                  <input
-                    type="text"
-                    placeholder="Email Address"
-                    className={`w-full px-6 py-4 rounded-full border border-[hsl(0,36%,70%)] focus:border-[hsl(0,36%,70%)] focus:outline`}
-                  />
-                  <button
-                    className="absolute right-0 top-0 h-full px-12 rounded-full bg-gradient-to-r from-[hsl(0,80%,86%)] to-[hsl(0,74%,74%)] hover:from-[hsl(0,100%,98%)] "
-                  >
-                    <img src={nextbutton} alt="Submit" className="w-3" />
-                  </button>
-                </div>
-              </form>
-              </div>
-            </div>
-          </div>
-          <div className='w-1/3'>
-            <img src={coverimg} className='object-cover h-full ' alt="" />
-          </div>
-        </div>
-        {/* <div className='flex items-center justify-center'>
-        <div className='bg-white w-1/2 flex items-center justify-center p-3 rounded-xl'>
-          <span className=" py-4 text-center text-sm text-gray-600">
-            <div className="container mx-auto px-4">
-              <p>
-                Challenge by{' '}
-                <a
-                  href="https://www.frontendmentor.io?ref=challenge"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[color:hsl(158,36%,37%)] hover:underline"
-                >
-                  Frontend Mentor
-                </a>
-                . Coded by{' '}
-                <a
-                  href="https://github.com/tuitenthai123"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[color:hsl(158,36%,37%)] hover:underline"
-                >
-                  TuiTenThai
-                </a>
-                .
-              </p>
-            </div>
-          </span>
-        </div>
-      </div> */}
+                 <span class="text-2xl">
+         nhà mơ ước
+         </span>
+        <span>
+     My dream house would be in the countryside. It would be small but beautiful, with three rooms and a lovely garden. In the living room, I would prefer to have a comfortable sofa and a large television. The bedroom would have a warm bed and a small lamp. In the kitchen, there would be a table with some chairs and a big fridge. I would also grow colorful flowers and some trees in my garden. I hope to have a swing or a bench to sit on and enjoy the fresh countryside air. On weekends, I could have a picnic with my family or friends and create beautiful memories. I want to live there because it is quiet, comfortable, and helps me feel calm after a hard day.
+          <span/>
+                   <span class="text-2xl">
+         cầu thử
+         </span>
+        <span>
+          I started playing football when I was a child. At first, I didn’t know how to play well, but I practiced every day and now I can play better. I like being part of a team and working together with my friends to win. Sometimes we join small competitions at school, and it’s always exciting. I usually play as a striker because I love scoring goals. When I score, I feel very proud and happy. Besides Messi, I also like other famous players like Ronaldo and Mbappe. They inspire me to train harder. Football is not just a sport to me, it is also a way to relax and make new friends. I want to play football for a long time.
+        <span/>
+                   <span class="text-2xl">
+         chuyến đi
+         </span>
+        <span>
+       Last summer, my family and I went on a wonderful trip to the beach. The weather was sunny and warm, perfect for outdoor fun. We swam in the sea, built sandcastles, and played ball games on the sand. The water was cool and very clear. We also ate delicious seafood at a small restaurant near the beach. I took many photos with my parents to remember the trip. In the evening, we walked along the shore, watched the beautiful sunset, and collected colorful seashells. I felt really happy and relaxed. It was one of the best times I’ve had with my family. I hope we can visit the beach again next summer and make more great memories together.
+          <span/>
+          
+         <span class="text-2xl">
+         bạn thân
+         </span>
+        <span>
+        My best friend’s name is Tom. He is kind, funny, and always ready to help others. Whenever I have a problem or need support, Tom is there to help me. We study in the same class, so we meet every day at school. After class, we often do homework together or play music, which is something we both enjoy. On weekends, we sometimes go to the park or ride our bikes around the neighborhood. Tom always knows how to make me laugh, and I feel happy when I’m with him. He listens carefully when I talk and truly cares about his friends. I’m really glad to have a best friend like Tom. He means a lot to me.
+          <span/>
       </div>
     )
   }
